@@ -15,15 +15,21 @@ header{
   justify-content:space-between;
   align-items:center;
   padding:15px 40px;
-  background:white;
+  background:rgb(255, 255, 255);
   box-shadow:0 4px 10px rgba(0,0,0,0.1);
   position:sticky;
   top:0;
   z-index:1000;
 }
 
+a{
+  text-decoration: none;
+}
+
+
 .logo{
-  color:#0077ff;
+  
+  color:#3d36c5;
 }
 
 nav{
@@ -42,7 +48,7 @@ nav a::after{
   position:absolute;
   width:0;
   height:2px;
-  background:#0077ff;
+  background:#aa9120;
   left:0;
   bottom:-5px;
   transition:0.3s;
@@ -75,13 +81,13 @@ nav a:hover::after{
 }
 
 .hero-text h1 span{
-  color:#0077ff;
+  color:#393d76;
 }
 
 .hero button{
   padding:10px 25px;
   border:none;
-  background:#0077ff;
+  background:#393d76;
   color:white;
   margin-top:10px;
   cursor:pointer;
@@ -90,6 +96,16 @@ nav a:hover::after{
 
 .hero button:hover{
   transform:scale(1.1);
+}
+
+.tech-icons img {
+  margin: 0 50px;
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
+  transition: transform .2s;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1);
 }
 
 /* SECTIONS */
@@ -126,7 +142,7 @@ nav a:hover::after{
 footer{
   text-align:center;
   padding:20px;
-  background:#0077ff;
+  background:#393d76;
   color:white;
 }
 
