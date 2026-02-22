@@ -18,3 +18,14 @@ new Typed("#typing",{
   backSpeed:40,
   loop:true
 });
+
+const sendEmailBtn = document.getElementById("sendEmailBtn");
+
+sendEmailBtn.addEventListener("click", () => {
+  const email = "tadelebeemnet4@gmail.com";
+  const subject = "";
+  const body = ",";
+
+  const gmailLink = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.open(gmailLink, "_blank");
+});
