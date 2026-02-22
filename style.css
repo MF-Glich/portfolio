@@ -117,7 +117,7 @@ nav a:hover::after{
 .dark{
   background:#dde2e6;
 }
-section#home.hero{
+.section#home.hero{
   background:#dde2e6;
  }
 
@@ -181,4 +181,5 @@ footer{
     display:block;
   }
 }
+
 
