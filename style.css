@@ -115,11 +115,11 @@ nav a:hover::after{
 }
 
 .dark{
-  background:#dde2e6;
+  background:#2b465b;
 }
 
 .hero{
-  background:#2b465b;
+  background:#dde2e6;
  }
 
 .grid{
@@ -182,6 +182,7 @@ footer{
     display:block;
   }
 }
+
 
 
 
